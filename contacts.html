@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - TravelService</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">TravelService</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="index.html#destinations">Направления</a></li>
+                <li><a href="tours.html">Туры</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contacts-page">
+        <section class="page-header">
+            <h1>Свяжитесь с нами</h1>
+            <p>Мы всегда рады помочь вам с организацией путешествия</p>
+        </section>
+
+        <section class="contact-content">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <img src="images/location.svg" alt="Адрес">
+                    <h3>Адрес</h3>
+                    <p>г. Москва, ул. Путешественников, д. 1</p>
+                </div>
+                <div class="contact-card">
+                    <img src="images/phone.svg" alt="Телефон">
+                    <h3>Телефон</h3>
+                    <p>+7 (999) 123-45-67</p>
+                    <p>+7 (999) 765-43-21</p>
+                </div>
+                <div class="contact-card">
+                    <img src="images/email.svg" alt="Email">
+                    <h3>Email</h3>
+                    <p>info@travelservice.ru</p>
+                    <p>support@travelservice.ru</p>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <h2>Напишите нам</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Отправить</button>
+                </form>
+            </div>
+
+            <div class="map-container">
+                <h2>Как нас найти</h2>
+                <div class="map">
+                    <!-- Здесь будет карта (можно добавить iframe с Google Maps или Яндекс.Карты) -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.5!2d37.6!3d55.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDQyJzAwLjAiTiAzN8KwMzYnMDAuMCJF!5e0!3m2!1sru!2sru!4v1635000000000!5m2!1sru!2sru" 
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>О компании</h3>
+                <p>Мы помогаем путешественникам открывать новые горизонты с 2024 года</p>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>Email: info@travelservice.ru</p>
+                <p>Телефон: +7 (999) 123-45-67</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TravelService. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Туры - TravelService</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">TravelService</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="index.html#destinations">Направления</a></li>
+                <li><a href="tours.html">Туры</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="tours-page">
+        <section class="page-header">
+            <h1>Наши туры</h1>
+            <p>Выберите идеальное путешествие для себя</p>
+        </section>
+
+        <section class="tours-grid">
+            <div class="tour-card">
+                <img src="images/tour1.jpg" alt="Пляжный отдых">
+                <div class="tour-content">
+                    <h3>Пляжный отдых</h3>
+                    <p class="tour-description">Насладитесь прекрасными пляжами и теплым морем</p>
+                    <ul class="tour-features">
+                        <li>7-14 дней</li>
+                        <li>Все включено</li>
+                        <li>От 60,000 ₽</li>
+                    </ul>
+                    <button class="tour-button">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <img src="images/tour2.jpg" alt="Экскурсионные туры">
+                <div class="tour-content">
+                    <h3>Экскурсионные туры</h3>
+                    <p class="tour-description">Познакомьтесь с историей и культурой разных стран</p>
+                    <ul class="tour-features">
+                        <li>5-10 дней</li>
+                        <li>Завтраки</li>
+                        <li>От 45,000 ₽</li>
+                    </ul>
+                    <button class="tour-button">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <img src="images/tour3.jpg" alt="Горнолыжные курорты">
+                <div class="tour-content">
+                    <h3>Горнолыжные курорты</h3>
+                    <p class="tour-description">Активный отдых в горах для всей семьи</p>
+                    <ul class="tour-features">
+                        <li>7-14 дней</li>
+                        <li>Полупансион</li>
+                        <li>От 75,000 ₽</li>
+                    </ul>
+                    <button class="tour-button">Подробнее</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="tour-filters">
+            <h2>Подобрать тур</h2>
+            <form class="filter-form">
+                <select name="type">
+                    <option value="">Тип тура</option>
+                    <option value="beach">Пляжный</option>
+                    <option value="excursion">Экскурсионный</option>
+                    <option value="ski">Горнолыжный</option>
+                </select>
+                <select name="duration">
+                    <option value="">Длительность</option>
+                    <option value="7">7 дней</option>
+                    <option value="10">10 дней</option>
+                    <option value="14">14 дней</option>
+                </select>
+                <input type="number" placeholder="Бюджет от" min="0">
+                <input type="number" placeholder="Бюджет до" min="0">
+                <button type="submit">Найти</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>О компании</h3>
+                <p>Мы помогаем путешественникам открывать новые горизонты с 2024 года</p>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>Email: info@travelservice.ru</p>
+                <p>Телефон: +7 (999) 123-45-67</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TravelService. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
